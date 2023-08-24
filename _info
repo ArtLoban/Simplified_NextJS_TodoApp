@@ -14,6 +14,14 @@ v20.5.1
 
 *********************************************************
 
+    ** Run App **
+
+SERVER
+$   npm run dev       // http://localhost:3000/
+
+
+*********************************************************
+
     ** Install **
 
 CLIENT
@@ -24,6 +32,7 @@ $   npm i prisma --save-dev         // Install prisma lib
 $   npx prisma init --datasource-provider sqlite    // Init prisma
 
 $   npx prisma migrate dev --name init              // Запуск миграции после того как создал модель Todo{}
+
 *********************************************************
 
     ** GitHub **
