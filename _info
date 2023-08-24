@@ -23,6 +23,7 @@ $   npm i prisma --save-dev         // Install prisma lib
 
 $   npx prisma init --datasource-provider sqlite    // Init prisma
 
+$   npx prisma migrate dev --name init              // Запуск миграции после того как создал модель Todo{}
 *********************************************************
 
     ** GitHub **
