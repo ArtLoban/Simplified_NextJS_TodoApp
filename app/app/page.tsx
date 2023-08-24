@@ -8,7 +8,6 @@ function getTodos() {
 
 export default async function Home() {
     const todos = await getTodos()
-    // await prisma.todo.create({ data: { title: "Test", complete: false }})
 
     return (
         <>
