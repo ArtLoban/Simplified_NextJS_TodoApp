@@ -19,5 +19,20 @@ v20.5.1
 CLIENT
 $   npx create-next-app .           // На все вопросы при установке ответить по дефолту
 
+$   npm i prisma --save-dev         // Install prisma lib
+
+$   npx prisma init --datasource-provider sqlite    // Init prisma
 
 *********************************************************
+
+    ** GitHub **
+
+https://github.com/ArtLoban/Simplified_NextJS_TodoApp
+
+*********************************************************
+
+
+
+
+
+
