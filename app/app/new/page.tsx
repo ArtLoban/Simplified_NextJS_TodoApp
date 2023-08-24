@@ -6,7 +6,7 @@ async function createTodo(data: FormData) {
     'use server'
 
     const title = data.get('title')?.valueOf()
-    console.log(title);
+    console.log(title);     // Debug on server in terminal
 
     if (typeof title !== 'string' || title.length === 0) {
         throw new Error('Invalid title')
